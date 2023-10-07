@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>game landing freebie by @alicilinia </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,7 +96,7 @@
             <div class="container">
                 <div class="social__battle__inner">
                     <div class="wrapper__flex__photo">
-                        <div class="flex__wrapper__cards">
+                        <div data-aos="fade-up-right" class="flex__wrapper__cards">
                             <strong class="social__battle__strong">What is SOS?</strong>
                             <div class="social__battle__title__wrapper">
                                 <h2 class="social__battle__title">social battle royale game</h2>
@@ -116,7 +117,7 @@
                         </div>
 
 
-                        <div>
+                        <div data-aos="flip-left">
                             <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
                                 <swiper-slide><img src="./images/png/image 5.2.png" alt="cards__photo"></swiper-slide>
                                 <swiper-slide><img src="./images/png/image.png" alt="cards__photo2"></swiper-slide>
@@ -131,7 +132,7 @@
         </section>
         <section class="features">
             <div class="container">
-                <div class="features__inner">
+                <div data-aos="zoom-in" class="features__inner">
                     <strong class="features__strong">What’s so special?</strong>
                     <h2 class="features__title">FEATURES</h2>
                     <div class="wrappr__left">
@@ -151,8 +152,8 @@
         <section class="system__bit">
             <div class="container">
                 <div class="system__bit__inner">
-                    <h3 class="system__bit__subtitle">Can My Computer Run this game?</h3>
-                    <h2 class="system__bit__title">system requirements</h2>
+                    <h3 data-aos="zoom-in" class="system__bit__subtitle">Can My Computer Run this game?</h3>
+                    <h2 data-aos="zoom-in" class="system__bit__title">system requirements</h2>
                     <ul class="system__bit__list">
                         <div>
                             <li class="system__bit__item">
@@ -204,7 +205,7 @@
         </section>
         <section class="press">
             <div class="container">
-                <div class="press__inner">
+                <div data-aos="fade-down-left" class="press__inner">
                     <div class="first__wrapper">
                         <h3 class="press__subtitle">What people think?</h3>
                         <h2 class="press__title">PRESS QUOTES</h2>
@@ -249,7 +250,7 @@
         </section>
         <section class="subscribe">
             <div class="container">
-                <div class="subscribe__inner">
+                <div data-aos="fade-right" class="subscribe__inner">
                     <h3 class="subscribe__subtitle">Want to stay in touch?</h3>
                     <h2 class="subscribe__title">newsletter SUBSCRIBE</h2>
                     <div class="description__wrapper__subscribe">
@@ -274,7 +275,7 @@
 
     <footer class="site-footer">
         <div class="container">
-            <div class="footer__inner">
+            <divы class="footer__inner">
                 <div class="wrapper__footer">
                     <ul class="header__list button__footer__lists">
                         <a href="#"><img class="img__footer" src="./images/svg/logo footer.svg" alt="footer logo"></a>
@@ -335,7 +336,10 @@
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="./js/main.js"></script>
 </body>
 
